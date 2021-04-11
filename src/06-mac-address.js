@@ -6,7 +6,7 @@
  * whether it's a MAC-48 address or not.
  *
  * @param {Number} inputString
- * @return {Boolean}
+ * @return {Number}
  *
  * @example
  * For 00-1B-63-84-45-E6, the output should be true.
