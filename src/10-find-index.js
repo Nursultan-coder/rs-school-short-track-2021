@@ -12,10 +12,22 @@
  *
  */
 function findIndex(array, value) {
-  const arr = array;
-  let x = 0;
-  arr.map((i) => (i < value ? x++ : x));
-  return x;
+  let result;
+  let start = 0;
+  let end = array.length - 1;
+  while (start <= end) {
+    if (array[start] === value) {
+      result = start;
+      break;
+    }
+    if (array[end] === value) {
+      result = end;
+      break;
+    }
+    start++;
+    end--;
+  }
+  return result;
 }
 
 module.exports = findIndex;
