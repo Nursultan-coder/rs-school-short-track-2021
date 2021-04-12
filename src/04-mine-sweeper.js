@@ -22,6 +22,16 @@
  * ]
  */
 function minesweeper(/* matrix */) {
+  // const result = [];
+  // matrix.forEach((item, i) => {
+  //   result.push(item);
+  // });
+
+  // result.forEach((item) => {
+  //   item.forEach((item) => {
+
+  //   });
+  // });
   throw new Error('Not implemented');
 }
 
