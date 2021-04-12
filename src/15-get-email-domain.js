@@ -1,6 +1,5 @@
-function getEmailDomain(email) {
-  const arr = email.split('@');
-  return arr[arr.length - 1];
+function getEmailDomain(/*email*/) {
+  throw new Error('Not implemented');
 }
 
 module.exports = getEmailDomain;
