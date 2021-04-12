@@ -3,16 +3,19 @@ function getMatrixElementsSum(matrix) {
 
   matrix.forEach((items, i) => {
     items.forEach((item, j) => {
-      if(i === 0) {
+      if (i === 0) {
         result += item;
       }
-      if(item = 0) {
-        result += items[j];
+      if (item !== 0) {
+        const index = i + 1;
+        if (index < matrix.length) {
+          result += matrix[i + 1][j];
+        }
       }
     });
-
-    return result;
   });
+
+  return result;
 }
 
 module.exports = getMatrixElementsSum;
