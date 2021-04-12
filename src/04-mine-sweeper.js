@@ -21,17 +21,7 @@
  *  [1, 1, 1]
  * ]
  */
-function minesweeper(/* matrix */) {
-  // const result = [];
-  // matrix.forEach((item, i) => {
-  //   result.push(item);
-  // });
-
-  // result.forEach((item) => {
-  //   item.forEach((item) => {
-
-  //   });
-  // });
+function minesweeper(/*matrix*/) {
   throw new Error('Not implemented');
 }
 
